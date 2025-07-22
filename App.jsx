@@ -67,7 +67,7 @@ function App() {
           <ul className='tasks-list'>
             {
               completedTasks.map((task, index) =>
-                <TaskItem taskName={task} key={index} deleteTask={deleteTask} completeTask={completeTask} isCompleted={false}/>
+                <TaskItem taskName={task} key={index} deleteTask={deleteTask} completeTask={completeTask} isCompleted={true}/>
               )
             }
           </ul>
